@@ -5,3 +5,4 @@ When you draw into a 15 x 15 square (225px), your pixel image is converted into 
 
 <img src='http://i.imgur.com/sSS8gA2.png'>
 <img src='http://i.imgur.com/dPUMdhZ.png'>
+<img src='http://i.imgur.com/XkwwiPE.png'>
