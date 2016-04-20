@@ -1,0 +1,59 @@
+.draw {
+    width: 435px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.box {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: -4px;
+    -webkit-user-select: none;
+    cursor:pointer;
+}
+
+#draw-btn {
+    margin-top: 10px;
+    float: right;
+}
+
+.arrayDisplay {
+    font-family: 'Ubuntu Mono';
+    letter-spacing: 8px;
+    font-size: 14px;
+}
+
+.arrayOutput {
+    float: left;
+    margin-top: 10px;
+}
+
+#input > div {
+    display: block;
+    margin-top: 30px;
+}
+
+input {
+    width: 80px;
+}
+
+.boxExample {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    margin-bottom: -9px;
+}
+
+.terminal {
+    position: absolute;
+    right: 20px;
+    font-family: 'Ubuntu Mono';
+    letter-spacing: 2px;
+    font-size: 14px;
+}

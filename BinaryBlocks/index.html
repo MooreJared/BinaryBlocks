@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
+    <title>Binary Blocks</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class='draw'>
+    <div id="draw-btn">
+        <select id="drawOption">
+            <option class="eef" value="draw">Draw</option>
+            <option class="eef" value="erase">Erase</option>
+        </select>
+        <button type="button" id="drawReset">Clear</button>
+        <button type="button" onclick="saveData();">Download</button>
+        <div id="input">
+            <div>
+                <label><div class="boxExample"></div> => </label><input type="text" value="..." id="emptyText">
+            </div>
+            <div>
+                <label><div class="boxExample" style="background-color: #00ccff"></div> => </label><input value="###" type="text" id="fullText">
+            </div>
+        </div>
+
+    </div>
+    <div class='arrayOutput'></div>
+</div>
+<div class="terminal"></div>
+<script src='js/jquery-2.2.3.min.js'></script>
+
+<script src="js/index.js"></script>
+
+
+</body>
+</html>
