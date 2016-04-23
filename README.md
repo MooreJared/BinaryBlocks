@@ -1,4 +1,6 @@
 # BinaryBlocks
+CodePen http://codepen.io/JaredMoore/pen/GZBYoW
+<hr>
 Silly little one day project :)
 
 When you draw into a 15 x 15 square (225px), your pixel image is converted into 15 separate binary arrays. Then, a javascript blob is dynamically created and downloaded so you can watch your drawing in your terminal / cmd prompt.
